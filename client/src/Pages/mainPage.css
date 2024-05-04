@@ -1,0 +1,197 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .scan-btn {
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bolder;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .scan-btn:hover {
+    background-color: #e6b800;
+  }
+  
+  /* Table Styles */
+  .table-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .results-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .results-table th,
+  .results-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .results-table th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Info Section Styles */
+  .info-section {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .Scan_video video{
+    height: 200px;
+    width: 200px;
+    background-color: #333;
+    z-index: 55;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* shadow effect */
+    text-align: center;
+}
+
+.popup p {
+    margin: 0;
+}
+
+.popup button {
+  position: relative;
+  top: 5px;
+  right: 5px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: red;
+  cursor: pointer;
+}
+
+.popup button:focus {
+  outline: none;
+}
+
+.overlay-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 999; /* Ensure it's above other content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-loader {
+  width: 120px; /* Adjust width and height for desired size */
+  height: 120px;
+  border-radius: 50%; /* Make the box circular */
+  border: 10px solid rgba(255, 255, 255, 0.4); /* Make the circle hollow */
+  border-top-color: white; /* Set color of the rotating circle */
+  box-sizing: border-box; /* Include border width in the total size */
+  animation: rotate 1s linear infinite; /* Circular motion animation */
+}
+
+.popup-loader p {
+  margin: 0;
+  display: none; /* Hide the text if not needed */
+}
+
+@keyframes rotate {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+.Product_image {
+  position: absolute;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px; /* Ensure the width matches the height for a perfect circle */
+  top: 65%;
+  left: 50%;
+  border: 8px solid #fff; /* White border */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); /* Drop shadow */
+}
+
+.Product_image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* Fit the image within the container */
+}
+
+ul {
+  list-style: none; /* Remove default bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  width: 25%;
+  padding: 10px;
+  border: 1px solid #ccc; /* Add border to each item */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  margin-bottom: 5px; /* Add margin between items */
+}
+
+/* Apply styles on hover to the text */
+li:hover {
+  color: #007bff; /* Change text color */
+  cursor: pointer; /* Show pointer cursor */
+}
+
+

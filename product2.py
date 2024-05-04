@@ -208,6 +208,38 @@ sample_data = [
     },
     "price": 10
     }
+    ,
+    {
+    "product_id": "1234567890123",
+    "name": "Maggi Instant Noodles",
+    "brand": "Maggi",
+    "category": "Instant Noodles",
+    "ingredients": ["Wheat Flour", "Palm Oil", "Salt", "Sugar", "Monosodium Glutamate (Flavor Enhancer)", "Hydrolyzed Soy Protein", "Onion Powder", "Garlic Powder", "Yeast Extract", "Spices"],
+    "allergens": ["Wheat", "Soy"],
+    "additives": ["Monosodium Glutamate (Flavor Enhancer)", "Hydrolyzed Soy Protein"],
+    "nutritional_information": {
+        "calories": 190,
+        "negative": {
+            "fat": 9,
+            "saturated_fat": 4,
+            "trans_fat": 0,
+            "cholesterol": 0,
+            "sodium": 790
+        },
+        "positive": {
+            "carbohydrates": 24,
+            "fiber": 2,
+            "sugars": 1,
+            "protein": 3,
+            "vitamin_a": 0,
+            "vitamin_c": 0,
+            "calcium": 2,
+            "iron": 4
+        }
+    },
+    "price": 1.50
+}
+
 ]
 
 # Function to generate barcode image and link it with product

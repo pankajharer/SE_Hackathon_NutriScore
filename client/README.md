@@ -1,3 +1,4 @@
+pip install flask flask-cors pymongo opencv-python pyzbar python-barcode
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

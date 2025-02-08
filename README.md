@@ -32,4 +32,9 @@ With just a quick scan, users can **instantly assess a product's health impact**
 - Python  
 
 ### **Database & APIs:**  
-- MongoDB(Product Database)  
+- MongoDB(Product Database)
+
+#### Screenshots
+![image](https://github.com/user-attachments/assets/18527243-34a4-46c4-9f3a-412c5712317a)
+![image](https://github.com/user-attachments/assets/8ec081ab-04b0-47ee-bda4-7cf2c1cb97f6)
+
